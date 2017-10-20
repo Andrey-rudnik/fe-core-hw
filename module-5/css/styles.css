@@ -7,7 +7,6 @@ body {
 
 .main-wrapper {
     box-sizing: border-box;
-    height: 1407px;
     width: 1024px;
     margin: 0 auto;
     margin-bottom: 706px;
@@ -17,9 +16,8 @@ body {
 .header {
     display: inline-block;
     box-sizing: border-box;
-    height: 190px;
     width: 1024px;
-    margin-top: 45px;   
+    margin: 45px 0 50px 0;   
     text-align: center;  
 }
 
@@ -130,8 +128,6 @@ body {
 
 .main {
     box-sizing: border-box;
-    height: 1171px;
-    width: 1024;
     padding: 58px 60px 135px 61px; 
     background-color: #fff;
     
@@ -139,7 +135,6 @@ body {
 
 .main-content {
     box-sizing: border-box;
-    height: 707px;
     width: 902px;  
     position: relative; 
 }
@@ -264,7 +259,6 @@ h2 {
 }
 .section-photo {
     box-sizing: border-box;
-    height: 270px;
     width: 902px;
     
 }
@@ -273,8 +267,6 @@ h2 {
 .section-photo-elf {
     display: inline-block;
     position: relative;
-	width: 287px;
-	height: 270px;
 }
 
 .section-photo-statue {
@@ -285,7 +277,7 @@ h2 {
 .photo-statue-box-2,
 .photo-elf-box-3 {
 	position: absolute;
-	right: 51%;
+	right: 49%;
 	top: 0;
 	display: none;
 	width: 147px;
