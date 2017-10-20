@@ -1,53 +1,50 @@
-@charset "utf-8";
 *{
     margin: 0px;
     padding: 0px;     
 }
 body{
-    background: url(../page-bg.jpg) no-repeat;
+    background: url(../image/page-bg.jpg) no-repeat;
     background-size: cover;
     width: 100%;
     height: 100%;  
 }
 #wraper{
     box-sizing: content-box;
-    width: 1024px;
-    height: 1297px;
+    width: 1024px;       /**/
     margin: 230px  auto;
     text-align: left;
     background-color: white;
 }
-.wraper1{
+.wraper-content-top{
     box-sizing: border-box;
-    height: 652px; 
     margin: 117px 60px 0px 60px;
     padding-top: 117px;  
 }
-.wraper2{
+.wraper-content-middle{
     box-sizing: border-box;
-    margin: 0px 61px 81px 61px;
-    padding-top: 58px;
-    border-top: 1px solid rgb(222, 219, 219);
+    margin: 0px 61px;
+    padding: 58px 0 81px 0;
+    border-top: 1px solid #dedbdb;
 }
-.main_blok_1_top{
+.content-top-left{
     box-sizing: content-box;
     display: inline-block;
     width: 640px;
     margin-right: 44px;
 }
-.main_blok_2_top{
+.content-top-right{
     box-sizing: content-box;
     display: inline-block;
     width: 204px;
     vertical-align: top;
 }
-.main_blok_1_middle{
+.content-middle-left{
     box-sizing: content-box;
     display: inline-block;
     width: 642px;
     margin-right: 15px;
 }
-.main_blok_2_middle{
+.content-middle-right{
     box-sizing: content-box;
     display: inline-block;
     vertical-align: top;
@@ -95,12 +92,12 @@ h4{
 .middle{
     margin: 14px 0px 16px 0px;
 }
-.plane{
+.top-left-picture{
     box-sizing: content-box;
     float: left;
     margin: 0px 25px 22px 0px;
 }
-.plan_text{
+.top-left_text{
    box-sizing: content-box;
    margin: 47px 0px 53px 0px;
    width: 640px;
@@ -141,10 +138,10 @@ ul.pointer li:before {
     display: inline-block;
     vertical-align: top;
 }
-.b2{
+.top-right{
     margin: 32px 0px 0px 0px;
 }
-.b{
+.top-right1{
     margin: 14px 0px 0px 0px;
 }
 ul{
