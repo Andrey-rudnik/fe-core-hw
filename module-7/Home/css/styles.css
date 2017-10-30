@@ -153,6 +153,11 @@ body {
     position: absolute;
 }
 
+.slider-image-1 {
+    width: 902px;
+    position: static;
+}
+
 .side-txt1 {
 	position: absolute;
 	top: 218px;
