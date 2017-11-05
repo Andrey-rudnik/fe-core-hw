@@ -1,0 +1,29 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+.wr{
+	box-sizing: border-box;
+	width: 800px; 
+	height: 1407px;
+	margin: 0 auto;
+}
+
+.wr1{
+	box-sizing: border-box;;
+	height: 150px;
+	margin-top: 50px;
+	margin-bottom: 100px;
+	background-color: red;
+}
+.wr2{
+	box-sizing: border-box;;
+	height: 500px;
+	margin-top: 50px;
+	background-color: blue;
+}
+.wr11{
+	width: 88px;
+	height: 58px;
+}

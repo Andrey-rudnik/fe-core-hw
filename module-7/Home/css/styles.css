@@ -143,7 +143,6 @@ body {
 .slaider {
 	box-sizing: border-box;
     position: relative;
-    height: 636px;
 	width: 902px; 
 	padding-bottom: 57px;
 }
@@ -154,7 +153,8 @@ body {
 }
 
 .slider-image-1 {
-    width: 902px;
+	width: 902px;
+	height:580px;
     position: static;
 }
 
