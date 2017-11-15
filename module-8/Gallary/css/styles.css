@@ -128,7 +128,7 @@ body {
 
 /*content*/
 
-.gallery-content{
+.content{
     box-sizing: border-box;
     width: 100%;
     padding: 59px 37px 36px 38px;
@@ -148,7 +148,6 @@ body {
 
 .image {
     width: 100%;
-    height: 217px;
     padding: 20px 20px 20px 0;  
 }
 
@@ -409,7 +408,6 @@ h2 {
 
     .image, .image2 {
         width: 100%;
-        height: 177px;
         padding: 20px 20px 20px 0;       
     }
 
@@ -598,7 +596,6 @@ h2 {
     }
 
     .image, .image2, .image3 {
-        height: 155px;
         width: 100%;
         padding: 20px 20px 20px 0;       
     }
